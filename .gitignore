@@ -1,0 +1,41 @@
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/storage/*.key
+.env
+.env.*
+!.env.example
+.phpunit.result.cache
+.phpunit.cache
+/.phpunit.cache
+/.idea/
+/.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+/.fleet/
+/auth.json
+/.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Laravel / local runtime files
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Local databases / backups
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+
+# OS / editor files
+Desktop.ini
